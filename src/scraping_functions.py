@@ -1,19 +1,14 @@
 #Se importan los paquetes necesarios
 import pandas as pd
-import numpy as np
 import re
 import time
 import requests as req
-from bs4 import BeautifulSoup as bs
 import sys
 from datetime import datetime
 from datetime import timedelta
-from datetime import date
-
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 
 #driver configuration
 opciones=Options()
@@ -22,8 +17,6 @@ opciones.add_experimental_option('excludeSwitches', ['enable-automation'])
 opciones.add_experimental_option('useAutomationExtension', False)
 opciones.headless=False    # si True, no aperece la ventana (headless=no visible)
 opciones.add_argument('--start-maximized')         # comienza maximizado
-#opciones.add_argument('user-data-dir=selenium')    # mantiene las cookies
-#opciones.add_extension('driver_folder/adblock.crx')       # adblocker
 opciones.add_argument('--incognito')
 opciones.add_experimental_option("detach", True)
 path = "/mnt/d/Google Drive/Iron hack/Instalaciones/chromedriver.exe"
