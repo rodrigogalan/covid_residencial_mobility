@@ -4,7 +4,10 @@ En este proyecto se ha importado un data set de [Kaggle](https://www.kaggle.com/
 ***
 ## Método
 1. Descarga e importación del .csv como pandas data frame.
-
+2. Scraping de Yahoo finance
+3. Api
+4. Crear y subir los datos a SQL
+5. Visualización 
 
 
 ## Documentos
