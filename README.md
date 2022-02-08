@@ -21,8 +21,8 @@ En este proyecto se ha importado un data set de [Kaggle](https://www.kaggle.com/
 * [numpy](https://numpy.org/doc/1.22/)
 * [pandas](https://pandas.pydata.org/pandas-docs/stable/) 
 * [sys](https://github.com/python/cpython/blob/3.10/Doc/library/sys.rst)
- * requests
- * selenium
- * sqlalchemy
- * datetime
+ * [requests](https://docs.python-requests.org/es/latest/)
+ * [selenium](https://www.selenium.dev/documentation/webdriver/)
+ * [sqlalchemy](https://docs.sqlalchemy.org/en/14/)
+ * [datetime](https://docs.python.org/es/3/library/datetime.html)
 
