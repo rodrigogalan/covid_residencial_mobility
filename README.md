@@ -1,5 +1,9 @@
 # Data-covid-residential-movility
 
+<div align=center>
+    <img src ="./images/mobility.jpg" alt="Banco Santander logo">
+</div>
+
 En este proyecto se ha importado un data set de [Kaggle](https://www.kaggle.com/aestheteaman01/people-staying-in-home-during-covid19) sobre las preferencias de la población en torno a estar en casa respecto momentos previos al COVID. Posteriormente se ha creado una función para el scrapeo de datos de Yahoo finance y se han scrapeado los datos de diferentes compañías. Por último se han añadido todos los datos recopilados a un database en SQL.
 ***
 ## Método
